@@ -1,3 +1,9 @@
+PATH
+  remote: .
+  specs:
+    simple-compass (0.0.1)
+      sass
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -7,4 +13,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  sass
+  simple-compass!

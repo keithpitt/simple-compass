@@ -1,3 +1,5 @@
 source "http://rubygems.org"
 
-gem "sass"
+gemspec
+
+gem 'simple-compass', :path => '.'
