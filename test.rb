@@ -21,5 +21,5 @@ module SimpleCompass
 end
 
 options = { :load_paths => [ SimpleCompass::Importer.new ] }
-engine = ::Sass::Engine.new File.read("stylesheets/test.sass"), options
+engine = ::Sass::Engine.new File.read("test/fixtures/opacity_test.sass"), options
 p engine.to_css
