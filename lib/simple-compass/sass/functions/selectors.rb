@@ -1,4 +1,4 @@
-module Compass::SassExtensions::Functions::Selectors
+module Sass::Script::Functions
   COMMA_SEPARATOR = /\s*,\s*/
 
   # Permute multiple selectors each of which may be comma delimited, the end result is
