@@ -1,3 +1,13 @@
+require 'sass'
+
+module Compass
+  module Frameworks
+    def self.register(name, options = {})
+      Sass.load_paths << options[:stylesheets_directory]
+    end
+  end
+end
+
 root_dir = File.join(File.dirname(__FILE__), '..')
 
 sass_dir = File.expand_path File.join root_dir, 'sass'
